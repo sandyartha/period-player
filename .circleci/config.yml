@@ -31,3 +31,9 @@ jobs:
       - store_artifacts:
           path: output/period_results.zip
           destination: period_results.zip
+
+workflows:
+  version: 2
+  scrape_workflow:
+    jobs:
+      - scrape_and_zip
