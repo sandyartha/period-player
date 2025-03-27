@@ -23,10 +23,19 @@ jobs:
           command: python scrape.py
 
       - run:
+          name: Debug Folder Contents
+          command: ls -l period/
+
+      - run:
           name: Zip results
           command: |
             mkdir -p output
-            zip -r output/period_results.zip period/
+            if [ -d "period" ]; then
+                zip -r output/period_results.zip period/
+            else
+                echo "Error: 'period/' folder not found!"
+                exit 1
+            fi
 
       - store_artifacts:
           path: output/period_results.zip
