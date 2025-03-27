@@ -1,0 +1,33 @@
+version: 2.1
+
+executors:
+  python-executor:
+    docker:
+      - image: mcr.microsoft.com/playwright/python:v1.40.0
+    resource_class: medium
+
+jobs:
+  scrape_and_zip:
+    executor: python-executor
+    steps:
+      - checkout
+      
+      - run:
+          name: Install dependencies
+          command: |
+            pip install -r requirements.txt
+            playwright install chromium
+
+      - run:
+          name: Run scraping script
+          command: python scrape.py
+
+      - run:
+          name: Zip results
+          command: |
+            mkdir -p output
+            zip -r output/period_results.zip period/
+
+      - store_artifacts:
+          path: output/period_results.zip
+          destination: period_results.zip
