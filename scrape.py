@@ -16,7 +16,7 @@ except ImportError:
 
 # Daftar aturan untuk menangani singkatan klub
 CLUB_ALIASES = {
-  "AA Argentinos Juniors": ["argentinos", "Argentinos Jrs."],
+  "aa argentinos juniors": ["argentinos", "argentinos jrs."],
   "CA Aldosivi": ["aldosivi"],
   "CA Banfield": ["banfield"],
   "CA Barracas Central": ["barracas"],
