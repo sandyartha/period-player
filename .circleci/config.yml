@@ -11,21 +11,17 @@ jobs:
     executor: python-executor
     steps:
       - checkout
-
+      
       - run:
           name: Install dependencies
           command: |
             apt-get update && apt-get install -y zip
-            pip install --no-cache-dir -r requirements.txt
+            pip install -r requirements.txt
+            playwright install chromium
 
       - run:
           name: Run scraping script
           command: python scrape.py
-
-      - run:
-          name: Debug directory structure (if failure)
-          command: ls -lah
-          when: on_fail
 
       - run:
           name: Zip results
@@ -35,7 +31,6 @@ jobs:
                 zip -r output/period_results.zip period/
             else
                 echo "Error: 'period/' folder not found!"
-                ls -lah  # Debugging jika gagal
                 exit 1
             fi
 
