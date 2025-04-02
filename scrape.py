@@ -16,16 +16,22 @@ except ImportError:
 
 # Daftar aturan untuk menangani singkatan klub
 CLUB_ALIASES = {
-  "gnk dinamo zagreb": ["dinamo zagreb", "dinamo", "modri", "the blues"],
-  "hnk gorica": ["gorica", "the bulls"],
-  "hnk hajduk split": ["hajduk split", "hajduk", "bili", "the whites"],
-  "hnk rijeka": ["rijeka", "bili", "the white-blues"],
-  "hnk sibenik": ["sibenik", "narančasti", "the oranges"],
-  "nk istra 1961": ["istra", "zeleno-žuti", "the green-yellows", "nk istra"],
-  "nk lokomotiva zagreb": ["lokomotiva", "loko", "the locomotives", "nk lokomotiva"],
-  "nk osijek": ["osijek", "bijelo-plavi", "the white-blues"],
-  "nk varazdin": ["varazdin", "krojači", "the tailors", "varteks"],
-  "slaven belupo koprivnica": ["slaven belupo", "slaven", "farmaci", "the pharmacists"]
+  "1.fc slovacko": ["slovacko", "synot", "the blue-whites"],
+  "ac sparta prague": ["sparta prague", "sparta", "železná sparta", "the iron sparta"],
+  "bohemians prague 1905": ["bohemians", "klokani", "the kangaroos"],
+  "fc banik ostrava": ["banik ostrava", "banik", "černí draci", "the black dragons"],
+  "fc hradec kralove": ["hradec kralove", "včelí", "the bees"],
+  "fc slovan liberec": ["slovan liberec", "slovan", "ještědi", "the ještěd men"],
+  "fc viktoria plzen": ["viktoria plzen", "plzen", "viktorka", "the red-blues"],
+  "fk dukla prague": ["dukla prague", "dukla", "červenobílí", "the red-whites"],
+  "fk jablonec": ["jablonec", "zelenobílí", "the green-whites", "jablonec 97"],
+  "fk mlada boleslav": ["mlada boleslav", "bolka", "the blue-whites"],
+  "fk pardubice": ["pardubice", "jeseter", "the sturgeons"],
+  "fk teplice": ["teplice", "skláři", "the glassmakers", "vtj teplice"],
+  "mfk karvina": ["karvina", "horníci", "the miners"],
+  "sk dynamo ceske budejovice": ["dynamo ceske budejovice", "české budějovice", "černobílí", "the black-whites", "c. budejovice"],
+  "sk sigma olomouc": ["sigma olomouc", "sigma", "hanáci", "the haná men"],
+  "sk slavia prague": ["slavia prague", "slavia", "sešívaní", "the stitched"]
 }
 
 def normalize_club_name(club_name):
