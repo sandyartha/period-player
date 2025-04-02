@@ -16,18 +16,22 @@ except ImportError:
 
 # Daftar aturan untuk menangani singkatan klub
 CLUB_ALIASES = {
-  "austria vienna": ["austria wien", "vienna", "the violets", "austria vienna"],
-  "fc blau-weiss linz": ["blau-weiss linz", "linz", "the blue-whites"],
-  "grazer ak 1902": ["grazer ak", "gak", "the reds"],
-  "lask": ["lask linz", "linz", "the black-whites"],
-  "rapid vienna": ["rapid wien", "rapid", "the green-whites"],
-  "red bull salzburg": ["salzburg", "rb salzburg", "the bulls"],
-  "scr altach": ["altach", "rheindelta", "the reds"],
-  "sk austria klagenfurt": ["austria klagenfurt", "klagenfurt", "the violets", "a. klagenfurt"],
-  "sk sturm graz": ["sturm graz", "graz", "the blackies"],
-  "tsv hartberg": ["hartberg", "the blues"],
-  "wolfsberger ac": ["wolfsberger", "wac", "the wolves"],
-  "wsg tirol": ["wsg wattens", "tirol", "the greens"]
+  "beerschot va": ["beerschot", "the rats"],
+  "cercle brugge": ["cercle", "brugge", "the green and blacks"],
+  "club brugge kv": ["club brugge", "brugge", "the blauw-zwart"],
+  "fcv dender eh": ["dender", "the blues"],
+  "kaa gent": ["gent", "the buffalos"],
+  "krc genk": ["genk", "the smurfs"],
+  "kvc westerlo": ["westerlo", "the kemphanen"],
+  "kv kortrijk": ["kortrijk", "the veekaa"],
+  "kv mechelen": ["mechelen", "malinwa", "the yellow-reds"],
+  "oud-heverlee leuven": ["ohl", "leuven", "the white-reds", "oh leuven"],
+  "royal antwerp fc": ["antwerp", "the great old"],
+  "rsc anderlecht": ["anderlecht", "purple and white"],
+  "r charleroi sc": ["charleroi", "the zebras"],
+  "sint-truidense vv": ["sint-truiden", "stvv", "the canaries"],
+  "standard liège": ["standard", "liège", "the rouches"],
+  "union saint-gilloise": ["union", "les unionistes", "union sg"]
 }
 
 def normalize_club_name(club_name):
