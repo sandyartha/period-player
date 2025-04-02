@@ -16,19 +16,32 @@ except ImportError:
 
 # Daftar aturan untuk menangani singkatan klub
 CLUB_ALIASES = {
-  "bengaluru fc": ["bengaluru", "the blues"],
-  "chennaiyin fc": ["chennaiyin", "marina machans", "the super machans"],
-  "east bengal fc": ["east bengal", "red and golds", "lalkotha"],
-  "fc goa": ["goa", "the gaurs"],
-  "hyderabad fc": ["hyderabad", "the nizams"],
-  "jamshedpur fc": ["jamshedpur", "the men of steel"],
-  "kerala blasters fc": ["kerala blasters", "manjappada", "the yellow army"],
-  "mohammedan sc (kolkata)": ["mohammedan", "black and whites", "black panthers"],
-  "mohun bagan super giant": ["mohun bagan", "the mariners", "green and maroon", "atk mohun bagan"],
-  "mumbai city fc": ["mumbai city", "the islanders"],
-  "northeast united fc": ["northeast united", "the highlanders", "northeast utd."],
-  "odisha fc": ["odisha", "the juggernauts"],
-  "punjab fc": ["punjab", "the warriors"]
+  "adhyaksa fc": ["adhyaksa", "the prosecutors"],
+  "bhayangkara presisi fc": ["bhayangkara", "the guardians"],
+  "dejan fc": ["dejan", "dejan glory"],
+  "deltras fc": ["deltras", "the lobsters"],
+  "fc bekasi city": ["bekasi city", "the patriots"],
+  "gresik united fc": ["gresik united", "kebo giri", "the white bulls"],
+  "nusantara united fc": ["nusantara united", "the archipelago warriors", "nusantara utd."],
+  "persekat tegal": ["persekat", "laskar ki gede sebayu"],
+  "persela lamongan": ["persela", "laskar joko tingkir", "the blue eagles"],
+  "persewar waropen": ["persewar", "mutiara hitam", "the black pearls"],
+  "persibo bojonegoro": ["persibo", "laskar anggling dharma"],
+  "persijap jepara": ["persijap", "laskar kalinyamat", "the tigers"],
+  "persikabo 1973": ["persikabo", "laskar padjajaran", "tr-kabo"],
+  "persikas subang": ["persikas", "harimau ketan", "the sticky rice tigers"],
+  "persikota tangerang": ["persikota", "laskar benteng", "the fortress warriors"],
+  "persiku kudus": ["persiku", "laskar macan muria", "the muria tigers"],
+  "persipal palu fc": ["persipal", "laskar tadulako", "persipal bu"],
+  "persipa pati": ["persipa", "laskar saridin", "the white tigers"],
+  "persipura jayapura": ["persipura", "mutiara hitam", "the black pearls"],
+  "persiraja banda aceh": ["persiraja", "laskar rencong", "the rencong warriors"],
+  "psim yogyakarta": ["psim", "laskar mataram", "the mataram warriors"],
+  "pskc cimahi": ["pskc", "laskar sangkuriang"],
+  "psms medan": ["psms", "ayam kinantan", "the kinantan roosters"],
+  "psps pekanbaru": ["psps", "laskar bertuah", "the charmed warriors"],
+  "rans nusantara fc": ["rans", "the prestige phoenix", "rans fc"],
+  "sriwijaya fc": ["sriwijaya", "laskar wong kito", "the palembang warriors"]
 }
 
 def normalize_club_name(club_name):
