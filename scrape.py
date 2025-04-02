@@ -16,26 +16,22 @@ except ImportError:
 
 # Daftar aturan untuk menangani singkatan klub
 CLUB_ALIASES = {
-  "botafogo de futebol e regatas": ["botafogo", "fogo", "estrela solitária"],
-  "ceará sporting club": ["ceará", "vozão", "alvinegro", "ceará sc"],
-  "clube atlético mineiro": ["atlético mineiro", "galo", "cam", "atlético-mg"],
-  "clube de regatas vasco da gama": ["vasco", "cruzmaltino", "gigante da colina", "vasco da gama"],
-  "cruzeiro esporte clube": ["cruzeiro", "raposa", "celeste"],
-  "cr flamengo": ["flamengo", "mengão", "rubro-negro"],
-  "esporte clube bahia": ["bahia", "tricolor", "aço","ec bahia"],
-  "esporte clube juventude": ["juventude", "juve", "verde"],
-  "esporte clube vitória": ["vitória", "leão", "rubro-negro", "ec vitória"],
-  "fluminense football club": ["fluminense", "flu", "tricolor"],
-  "fortaleza esporte clube": ["fortaleza", "leão do pici", "tricolor"],
-  "grêmio foot-ball porto alegrense": ["grêmio", "tricolor gaúcho", "imortal"],
-  "mirassol futebol clube (sp)": ["mirassol", "leão da alta", "amarelo", "mirassol-sp"],
-  "red bull bragantino": ["bragantino", "rb bragantino", "massa bruta"],
-  "santos fc": ["santos", "peixe", "alvinegro praiano"],
-  "sociedade esportiva palmeiras": ["palmeiras", "verdão", "porco"],
-  "sport club corinthians paulista": ["corinthians", "timão", "alvinegro"],
-  "sport club do recife": ["sport", "leão", "rubro-negro", "sport recife"],
-  "sport club internacional": ["internacional", "colorado", "inter"],
-  "são paulo futebol clube": ["são paulo", "tricolor", "spfc"]
+  "beijing guoan": ["beijing", "guoan", "imperial guards", "bj guoan"],
+  "changchun yatai": ["changchun", "yatai", "northeast tigers", "cc yatai"],
+  "chengdu rongcheng": ["chengdu", "rongcheng", "blades"],
+  "dalian yingbo": ["dalian", "yingbo", "young tigers", "dl yingbo", "dl duxing", "dl zhixing"],
+  "henan fc": ["henan", "red devils", "hn jianye"],
+  "meizhou hakka": ["meizhou", "hakka", "mountain tigers", "mz hakka"],
+  "qingdao hainiu": ["qingdao", "hainiu", "sea bulls", "qd hainiu"],
+  "qingdao west coast": ["west coast", "qingdao wc", "coast warriors"],
+  "shandong taishan": ["shandong", "taishan", "mount tai", "sd luneng", "sd taishan"],
+  "shanghai port": ["shanghai", "port", "red eagles", "sh port"],
+  "shanghai shenhua": ["shenhua", "shanghai sh", "the flower", "sh shenhua"],
+  "shenzhen peng city": ["shenzhen", "sc jiuniu", "peng city", "phoenix", "sz peng city", "sz peng c. res."],
+  "tianjin jinmen tiger": ["tianjin", "jinmen", "tj jinmen tiger", "tj teda"],
+  "wuhan three towns": ["wuhan", "three towns", "dragons"],
+  "yunnan yukun": ["yunnan", "yukun", "jade dragons"],
+  "zhejiang fc": ["zhejiang", "greentown", "green giants", "zj fc", "zj e. greentown", "zj greentown"]
 }
 
 def normalize_club_name(club_name):
