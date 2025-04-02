@@ -16,24 +16,24 @@ except ImportError:
 
 # Daftar aturan untuk menangani singkatan klub
 CLUB_ALIASES = {
-  "atlas guadalajara": ["atlas", "los rojinegros", "the red-blacks"],
-  "atlético de san luis": ["san luis", "los tuneros", "the prickly pears"],
-  "cd cruz azul": ["cruz azul", "la máquina", "the machine"],
-  "cf américa": ["américa", "las águilas", "the eagles"],
-  "cf monterrey": ["monterrey", "rayados", "the striped ones"],
-  "cf pachuca": ["pachuca", "los tuzos", "the gophers"],
-  "club león fc": ["león", "los esmeraldas", "the emeralds"],
-  "club necaxa": ["necaxa", "los rayos", "the lightning"],
-  "club tijuana": ["tijuana", "xolos", "the xoloitzcuintles"],
-  "deportivo guadalajara": ["guadalajara", "chivas", "las chivas rayadas", "the striped goats"],
-  "deportivo toluca": ["toluca", "los diablos rojos", "the red devils"],
-  "fc juárez": ["juárez", "los bravos", "the braves"],
-  "mazatlán fc": ["mazatlán", "los cañoneros", "the gunners"],
-  "puebla fc": ["puebla", "la franja", "the stripe"],
-  "querétaro fc": ["querétaro", "los gallos blancos", "the white roosters"],
-  "santos laguna": ["santos", "los guerreros", "the warriors"],
-  "tigres uanl": ["tigres", "los felinos", "the felines"],
-  "unam pumas": ["pumas", "los universitarios", "the university ones"]
+  "ajax amsterdam": ["ajax", "de godenzonen", "the sons of the gods"],
+  "almere city fc": ["almere city", "de zwanen", "the swans", "fc omniworld"],
+  "az alkmaar": ["az", "de kaasboeren", "the cheese farmers", "az '67"],
+  "fc groningen": ["groningen", "trots van het noorden", "pride of the north"],
+  "fc utrecht": ["utrecht", "de domstedelingen", "the cathedral citizens"],
+  "feyenoord rotterdam": ["feyenoord", "de stadionclub", "the stadium club", "feijenoord"],
+  "fortuna sittard": ["fortuna", "de fortuna's", "the fortunates"],
+  "go ahead eagles": ["go ahead", "de adelaars", "the eagles"],
+  "heracles almelo": ["heracles", "de heraclieden", "the heracleans"],
+  "nac breda": ["nac", "de parel van het zuiden", "the pearl of the south"],
+  "nec nijmegen": ["nec", "de nijmeegse trots", "the nijmegen pride"],
+  "pec zwolle": ["zwolle", "pec zwolle", "de blauwvingers", "the bluefingers", "pec"],
+  "psv eindhoven": ["psv", "de boeren", "the farmers"],
+  "rkc waalwijk": ["rkc", "de geelblauwen", "the yellow-blues"],
+  "sc heerenveen": ["heerenveen", "de pompeblêden", "the water lilies"],
+  "sparta rotterdam": ["sparta", "de kasteelheren", "the castle lords"],
+  "twente enschede fc": ["twente", "de tukkers", "the tukkers", "fc twente"],
+  "willem ii tilburg": ["willem ii", "de tricolores", "the tricolors"]
 }
 
 def normalize_club_name(club_name):
