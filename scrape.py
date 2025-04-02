@@ -16,24 +16,24 @@ except ImportError:
 
 # Daftar aturan untuk menangani singkatan klub
 CLUB_ALIASES = {
-  "aj auxerre": ["auxerre", "aja", "les bleus et blancs", "the blue and whites"],
-  "angers sco": ["angers", "sco", "les noirs et blancs", "the black and whites"],
-  "as monaco": ["monaco", "les monégasques", "the red and whites"],
-  "as saint-étienne": ["saint-étienne", "les verts", "the greens"],
-  "fc nantes": ["nantes", "les canaris", "the canaries"],
-  "fc toulouse": ["toulouse", "téfécé", "les violets", "the purples"],
-  "le havre ac": ["le havre", "hac", "les ciel et marine", "the sky and navy"],
-  "losc lille": ["lille", "losc", "les dogues", "the mastiffs"],
-  "montpellier hsc": ["montpellier", "la paillade", "les orange et bleu", "the orange and blues"],
-  "ogc nice": ["nice", "les aiglons", "the eaglets"],
-  "olympique lyon": ["lyon", "ol", "les gones", "the kids"],
-  "olympique marseille": ["marseille", "om", "les phocéens", "the phocaeans"],
-  "paris saint-germain": ["psg", "paris sg", "les parisiens", "the parisians"],
-  "rc lens": ["lens", "les sang et or", "the blood and gold"],
-  "rc strasbourg alsace": ["strasbourg", "racing", "les bleus", "the blues", "r. strasbourg"],
-  "stade brestois 29": ["brest", "les pirates", "the pirates", "brest armorique"],
-  "stade reims": ["reims", "les rouge et blanc", "the red and whites"],
-  "stade rennais fc": ["rennes", "les rouge et noir", "the red and blacks"]
+  "1.fc heidenheim 1846": ["heidenheim", "fch", "die rot-weißen", "the red-whites"],
+  "1.fc union berlin": ["union berlin", "die eisernen", "the iron ones"],
+  "1.fsv mainz 05": ["mainz", "die nullfünfer", "the zero-fivers"],
+  "bayern munich": ["bayern", "fcb", "die bayern", "the bavarians"],
+  "bayer 04 leverkusen": ["leverkusen", "die werkself", "the factory eleven", "b. leverkusen"],
+  "borussia dortmund": ["dortmund", "bvb", "die schwarzgelben", "the black and yellows"],
+  "borussia mönchengladbach": ["mönchengladbach", "gladbach", "die fohlen", "the foals", "bor. m'gladbach"],
+  "eintracht frankfurt": ["frankfurt", "sge", "die adler", "the eagles", "e. frankfurt"],
+  "fc augsburg": ["augsburg", "fca", "die fuggerstädter", "the fugger city men"],
+  "fc st. pauli": ["st. pauli", "die kiezkicker", "the neighborhood kickers"],
+  "holstein kiel": ["kiel", "die störche", "the storks"],
+  "rb leipzig": ["leipzig", "rbl", "die roten bullen", "the red bulls"],
+  "sc freiburg": ["freiburg", "breisgau-brasilianer", "the breisgau brazilians"],
+  "sv werder bremen": ["werder bremen", "werder", "die grün-weißen", "the green-whites"],
+  "tsg 1899 hoffenheim": ["hoffenheim", "tsg", "die kraichgauer", "the kraichgauers"],
+  "vfb stuttgart": ["stuttgart", "die schwaben", "the swabians"],
+  "vfl bochum": ["bochum", "die unverwüstlichen", "the indestructibles"],
+  "vfl wolfsburg": ["wolfsburg", "die wölfe", "the wolves"]
 }
 
 def normalize_club_name(club_name):
