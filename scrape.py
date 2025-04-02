@@ -16,22 +16,26 @@ except ImportError:
 
 # Daftar aturan untuk menangani singkatan klub
 CLUB_ALIASES = {
-  "beerschot va": ["beerschot", "the rats"],
-  "cercle brugge": ["cercle", "brugge", "the green and blacks"],
-  "club brugge kv": ["club brugge", "brugge", "the blauw-zwart"],
-  "fcv dender eh": ["dender", "the blues"],
-  "kaa gent": ["gent", "the buffalos"],
-  "krc genk": ["genk", "the smurfs"],
-  "kvc westerlo": ["westerlo", "the kemphanen"],
-  "kv kortrijk": ["kortrijk", "the veekaa"],
-  "kv mechelen": ["mechelen", "malinwa", "the yellow-reds"],
-  "oud-heverlee leuven": ["ohl", "leuven", "the white-reds", "oh leuven"],
-  "royal antwerp fc": ["antwerp", "the great old"],
-  "rsc anderlecht": ["anderlecht", "purple and white"],
-  "r charleroi sc": ["charleroi", "the zebras"],
-  "sint-truidense vv": ["sint-truiden", "stvv", "the canaries"],
-  "standard liège": ["standard", "liège", "the rouches"],
-  "union saint-gilloise": ["union", "les unionistes", "union sg"]
+  "botafogo de futebol e regatas": ["botafogo", "fogo", "estrela solitária"],
+  "ceará sporting club": ["ceará", "vozão", "alvinegro", "ceará sc"],
+  "clube atlético mineiro": ["atlético mineiro", "galo", "cam", "atlético-mg"],
+  "clube de regatas vasco da gama": ["vasco", "cruzmaltino", "gigante da colina", "vasco da gama"],
+  "cruzeiro esporte clube": ["cruzeiro", "raposa", "celeste"],
+  "cr flamengo": ["flamengo", "mengão", "rubro-negro"],
+  "esporte clube bahia": ["bahia", "tricolor", "aço","ec bahia"],
+  "esporte clube juventude": ["juventude", "juve", "verde"],
+  "esporte clube vitória": ["vitória", "leão", "rubro-negro", "ec vitória"],
+  "fluminense football club": ["fluminense", "flu", "tricolor"],
+  "fortaleza esporte clube": ["fortaleza", "leão do pici", "tricolor"],
+  "grêmio foot-ball porto alegrense": ["grêmio", "tricolor gaúcho", "imortal"],
+  "mirassol futebol clube (sp)": ["mirassol", "leão da alta", "amarelo", "mirassol-sp"],
+  "red bull bragantino": ["bragantino", "rb bragantino", "massa bruta"],
+  "santos fc": ["santos", "peixe", "alvinegro praiano"],
+  "sociedade esportiva palmeiras": ["palmeiras", "verdão", "porco"],
+  "sport club corinthians paulista": ["corinthians", "timão", "alvinegro"],
+  "sport club do recife": ["sport", "leão", "rubro-negro", "sport recife"],
+  "sport club internacional": ["internacional", "colorado", "inter"],
+  "são paulo futebol clube": ["são paulo", "tricolor", "spfc"]
 }
 
 def normalize_club_name(club_name):
