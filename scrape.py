@@ -16,22 +16,24 @@ except ImportError:
 
 # Daftar aturan untuk menangani singkatan klub
 CLUB_ALIASES = {
-  "akhmat grozny": ["akhmat", "volki", "the wolves", "terek grozny"],
-  "akron togliatti": ["akron", "kony", "the horses"],
-  "cska moscow": ["cska", "koni", "the horses", "cdka"],
-  "dinamo makhachkala": ["dinamo mkh", "delfiny", "the dolphins", "makhachkala"],
-  "dynamo moscow": ["dynamo", "belo-golubye", "the white-blues"],
-  "fakel voronezh": ["fakel", "ognebortsy", "the fire fighters"],
-  "fc khimki": ["khimki", "krasno-chyornye", "the red-blacks"],
-  "fc krasnodar": ["krasnodar", "byki", "the bulls"],
-  "fc orenburg": ["orenburg", "gazoviki", "the gas workers", "gazovik orenburg"],
-  "fc pari nizhniy novgorod": ["pari nn", "volzhane", "novgorod", "nizhny novgorod", "nizhny"],
-  "fc rostov": ["rostov", "selmashi", "the yellow-blues"],
-  "krylya sovetov samara": ["krylya sovetov", "krylyshki", "the wings", "ks kuybyshev"],
-  "lokomotiv moscow": ["lokomotiv", "loko", "parovozy", "the locomotives", "loko moskau"],
-  "rubin kazan": ["rubin", "rubinovye", "the rubies"],
-  "spartak moscow": ["spartak", "krasno-belye", "the red-whites"],
-  "zenit st. petersburg": ["zenit", "sine-belo-golubye", "the blue-white-sky blues", "zenit s-pb"]
+  "al-ahli sfc": ["al-ahli", "al-raqi", "the classy"],
+  "al-ettifaq fc": ["al-ettifaq", "fursan al-daham", "the dark knights"],
+  "al-fateh sc": ["al-fateh", "al-namothajiya", "the exemplary"],
+  "al-fayha fc": ["al-fayha", "al-burtuqali", "the orange"],
+  "al-hilal sfc": ["al-hilal", "al-zaeem", "the leader"],
+  "al-ittihad club": ["al-ittihad", "al-nemour", "the tigers"],
+  "al-khaleej fc": ["al-khaleej", "al-danah", "the pearl"],
+  "al-kholood club": ["al-kholood", "fursan al-janoob", "knights of the south"],
+  "al-nassr fc": ["al-nassr", "al-alami", "the global"],
+  "al-okhdood club": ["al-okhdood", "fursan al-janoob", "knights of the south"],
+  "al-orobah fc": ["al-orobah", "al-sahraa", "the desert"],
+  "al-qadsiah fc": ["al-qadsiah", "faris al-sharq", "knight of the east"],
+  "al-raed sfc": ["al-raed", "raed al-tahadi", "the challenger"],
+  "al-riyadh sc": ["al-riyadh", "al-nadawi", "the capital club"],
+  "al-shabab fc": ["al-shabab", "al-leith", "the white lion"],
+  "al-taawoun fc": ["al-taawoun", "sokoor al-jabal", "the mountain falcons"],
+  "al-wehda fc": ["al-wehda", "fursan makkah", "knights of mecca"],
+  "damac fc": ["damac", "fursan al-janoob", "knights of the south"]
 }
 
 def normalize_club_name(club_name):
