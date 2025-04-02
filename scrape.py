@@ -16,24 +16,19 @@ except ImportError:
 
 # Daftar aturan untuk menangani singkatan klub
 CLUB_ALIASES = {
-  "1.fc heidenheim 1846": ["heidenheim", "fch", "die rot-weißen", "the red-whites"],
-  "1.fc union berlin": ["union berlin", "die eisernen", "the iron ones"],
-  "1.fsv mainz 05": ["mainz", "die nullfünfer", "the zero-fivers"],
-  "bayern munich": ["bayern", "fcb", "die bayern", "the bavarians"],
-  "bayer 04 leverkusen": ["leverkusen", "die werkself", "the factory eleven", "b. leverkusen"],
-  "borussia dortmund": ["dortmund", "bvb", "die schwarzgelben", "the black and yellows"],
-  "borussia mönchengladbach": ["mönchengladbach", "gladbach", "die fohlen", "the foals", "bor. m'gladbach"],
-  "eintracht frankfurt": ["frankfurt", "sge", "die adler", "the eagles", "e. frankfurt"],
-  "fc augsburg": ["augsburg", "fca", "die fuggerstädter", "the fugger city men"],
-  "fc st. pauli": ["st. pauli", "die kiezkicker", "the neighborhood kickers"],
-  "holstein kiel": ["kiel", "die störche", "the storks"],
-  "rb leipzig": ["leipzig", "rbl", "die roten bullen", "the red bulls"],
-  "sc freiburg": ["freiburg", "breisgau-brasilianer", "the breisgau brazilians"],
-  "sv werder bremen": ["werder bremen", "werder", "die grün-weißen", "the green-whites"],
-  "tsg 1899 hoffenheim": ["hoffenheim", "tsg", "die kraichgauer", "the kraichgauers"],
-  "vfb stuttgart": ["stuttgart", "die schwaben", "the swabians"],
-  "vfl bochum": ["bochum", "die unverwüstlichen", "the indestructibles"],
-  "vfl wolfsburg": ["wolfsburg", "die wölfe", "the wolves"]
+  "bengaluru fc": ["bengaluru", "the blues"],
+  "chennaiyin fc": ["chennaiyin", "marina machans", "the super machans"],
+  "east bengal fc": ["east bengal", "red and golds", "lalkotha"],
+  "fc goa": ["goa", "the gaurs"],
+  "hyderabad fc": ["hyderabad", "the nizams"],
+  "jamshedpur fc": ["jamshedpur", "the men of steel"],
+  "kerala blasters fc": ["kerala blasters", "manjappada", "the yellow army"],
+  "mohammedan sc (kolkata)": ["mohammedan", "black and whites", "black panthers"],
+  "mohun bagan super giant": ["mohun bagan", "the mariners", "green and maroon", "atk mohun bagan"],
+  "mumbai city fc": ["mumbai city", "the islanders"],
+  "northeast united fc": ["northeast united", "the highlanders", "northeast utd."],
+  "odisha fc": ["odisha", "the juggernauts"],
+  "punjab fc": ["punjab", "the warriors"]
 }
 
 def normalize_club_name(club_name):
