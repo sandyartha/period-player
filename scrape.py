@@ -16,19 +16,18 @@ except ImportError:
 
 # Daftar aturan untuk menangani singkatan klub
 CLUB_ALIASES = {
-  "adelaide united": ["adelaide", "the reds"],
-  "auckland fc": ["auckland", "the blues"],
-  "brisbane roar": ["brisbane", "the roar"],
-  "central coast mariners": ["mariners", "central coast", "the yellow and navy"],
-  "macarthur fc": ["macarthur", "the bulls"],
-  "melbourne city fc": ["melbourne city", "melbourne heart", "the heart"],
-  "melbourne victory": ["melbourne vic", "melbourne", "the big v"],
-  "newcastle united jets": ["newcastle jets", "newcastle", "the jets"],
-  "perth glory": ["perth", "glory", "the glory"],
-  "sydney fc": ["sydney", "the sky blues"],
-  "wellington phoenix": ["wellington", "phoenix", "the nix"],
-  "western sydney wanderers": ["wanderers", "western sydney", "the red and black"],
-  "western united fc": ["western united", "united", "the green and black"]
+  "austria vienna": ["austria wien", "vienna", "the violets", "austria vienna"],
+  "fc blau-weiss linz": ["blau-weiss linz", "linz", "the blue-whites"],
+  "grazer ak 1902": ["grazer ak", "gak", "the reds"],
+  "lask": ["lask linz", "linz", "the black-whites"],
+  "rapid vienna": ["rapid wien", "rapid", "the green-whites"],
+  "red bull salzburg": ["salzburg", "rb salzburg", "the bulls"],
+  "scr altach": ["altach", "rheindelta", "the reds"],
+  "sk austria klagenfurt": ["austria klagenfurt", "klagenfurt", "the violets", "a. klagenfurt"],
+  "sk sturm graz": ["sturm graz", "graz", "the blackies"],
+  "tsv hartberg": ["hartberg", "the blues"],
+  "wolfsberger ac": ["wolfsberger", "wac", "the wolves"],
+  "wsg tirol": ["wsg wattens", "tirol", "the greens"]
 }
 
 def normalize_club_name(club_name):
