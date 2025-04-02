@@ -16,24 +16,24 @@ except ImportError:
 
 # Daftar aturan untuk menangani singkatan klub
 CLUB_ALIASES = {
-  "ajax amsterdam": ["ajax", "de godenzonen", "the sons of the gods"],
-  "almere city fc": ["almere city", "de zwanen", "the swans", "fc omniworld"],
-  "az alkmaar": ["az", "de kaasboeren", "the cheese farmers", "az '67"],
-  "fc groningen": ["groningen", "trots van het noorden", "pride of the north"],
-  "fc utrecht": ["utrecht", "de domstedelingen", "the cathedral citizens"],
-  "feyenoord rotterdam": ["feyenoord", "de stadionclub", "the stadium club", "feijenoord"],
-  "fortuna sittard": ["fortuna", "de fortuna's", "the fortunates"],
-  "go ahead eagles": ["go ahead", "de adelaars", "the eagles"],
-  "heracles almelo": ["heracles", "de heraclieden", "the heracleans"],
-  "nac breda": ["nac", "de parel van het zuiden", "the pearl of the south"],
-  "nec nijmegen": ["nec", "de nijmeegse trots", "the nijmegen pride"],
-  "pec zwolle": ["zwolle", "pec zwolle", "de blauwvingers", "the bluefingers", "pec"],
-  "psv eindhoven": ["psv", "de boeren", "the farmers"],
-  "rkc waalwijk": ["rkc", "de geelblauwen", "the yellow-blues"],
-  "sc heerenveen": ["heerenveen", "de pompeblêden", "the water lilies"],
-  "sparta rotterdam": ["sparta", "de kasteelheren", "the castle lords"],
-  "twente enschede fc": ["twente", "de tukkers", "the tukkers", "fc twente"],
-  "willem ii tilburg": ["willem ii", "de tricolores", "the tricolors"]
+  "avs futebol": ["avs", "os aurinegros", "the gold and blacks", "avs fs"],
+  "boavista fc": ["boavista", "os panteras", "the panthers"],
+  "casa pia ac": ["casa pia", "os gansos", "the geese"],
+  "cd nacional": ["nacional", "os alvinegros", "the white and blacks"],
+  "cd santa clara": ["santa clara", "os açorianos", "the azoreans"],
+  "cf estrela amadora": ["estrela amadora", "os tricolores", "the tricolors", "cf estrela"],
+  "estoril praia": ["estoril", "os canarinhos", "the little canaries"],
+  "fc arouca": ["arouca", "os arouquenses", "the arouca men"],
+  "fc famalicão": ["famalicão", "os famalicenses", "the famalicão men"],
+  "fc porto": ["porto", "os dragões", "the dragons"],
+  "gil vicente fc": ["gil vicente", "os galos", "the roosters"],
+  "moreirense fc": ["moreirense", "os verdes e brancos", "the green and whites"],
+  "rio ave fc": ["rio ave", "os vilacondenses", "the vila do conde men"],
+  "sc braga": ["braga", "os arsenalistas", "the arsenalists"],
+  "sc farense": ["farense", "os leões de faro", "the faro lions"],
+  "sl benfica": ["benfica", "as águias", "the eagles"],
+  "sporting cp": ["sporting", "os leões", "the lions"],
+  "vitória guimarães sc": ["vitória guimarães", "os conquistadores", "the conquerors", "vit. guimarães"]
 }
 
 def normalize_club_name(club_name):
