@@ -16,24 +16,22 @@ except ImportError:
 
 # Daftar aturan untuk menangani singkatan klub
 CLUB_ALIASES = {
-  "avs futebol": ["avs", "os aurinegros", "the gold and blacks", "avs fs"],
-  "boavista fc": ["boavista", "os panteras", "the panthers"],
-  "casa pia ac": ["casa pia", "os gansos", "the geese"],
-  "cd nacional": ["nacional", "os alvinegros", "the white and blacks"],
-  "cd santa clara": ["santa clara", "os açorianos", "the azoreans"],
-  "cf estrela amadora": ["estrela amadora", "os tricolores", "the tricolors", "cf estrela"],
-  "estoril praia": ["estoril", "os canarinhos", "the little canaries"],
-  "fc arouca": ["arouca", "os arouquenses", "the arouca men"],
-  "fc famalicão": ["famalicão", "os famalicenses", "the famalicão men"],
-  "fc porto": ["porto", "os dragões", "the dragons"],
-  "gil vicente fc": ["gil vicente", "os galos", "the roosters"],
-  "moreirense fc": ["moreirense", "os verdes e brancos", "the green and whites"],
-  "rio ave fc": ["rio ave", "os vilacondenses", "the vila do conde men"],
-  "sc braga": ["braga", "os arsenalistas", "the arsenalists"],
-  "sc farense": ["farense", "os leões de faro", "the faro lions"],
-  "sl benfica": ["benfica", "as águias", "the eagles"],
-  "sporting cp": ["sporting", "os leões", "the lions"],
-  "vitória guimarães sc": ["vitória guimarães", "os conquistadores", "the conquerors", "vit. guimarães"]
+  "akhmat grozny": ["akhmat", "volki", "the wolves", "terek grozny"],
+  "akron togliatti": ["akron", "kony", "the horses"],
+  "cska moscow": ["cska", "koni", "the horses", "cdka"],
+  "dinamo makhachkala": ["dinamo mkh", "delfiny", "the dolphins", "makhachkala"],
+  "dynamo moscow": ["dynamo", "belo-golubye", "the white-blues"],
+  "fakel voronezh": ["fakel", "ognebortsy", "the fire fighters"],
+  "fc khimki": ["khimki", "krasno-chyornye", "the red-blacks"],
+  "fc krasnodar": ["krasnodar", "byki", "the bulls"],
+  "fc orenburg": ["orenburg", "gazoviki", "the gas workers", "gazovik orenburg"],
+  "fc pari nizhniy novgorod": ["pari nn", "volzhane", "novgorod", "nizhny novgorod", "nizhny"],
+  "fc rostov": ["rostov", "selmashi", "the yellow-blues"],
+  "krylya sovetov samara": ["krylya sovetov", "krylyshki", "the wings", "ks kuybyshev"],
+  "lokomotiv moscow": ["lokomotiv", "loko", "parovozy", "the locomotives", "loko moskau"],
+  "rubin kazan": ["rubin", "rubinovye", "the rubies"],
+  "spartak moscow": ["spartak", "krasno-belye", "the red-whites"],
+  "zenit st. petersburg": ["zenit", "sine-belo-golubye", "the blue-white-sky blues", "zenit s-pb"]
 }
 
 def normalize_club_name(club_name):
