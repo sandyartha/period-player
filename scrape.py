@@ -16,22 +16,16 @@ except ImportError:
 
 # Daftar aturan untuk menangani singkatan klub
 CLUB_ALIASES = {
-  "beijing guoan": ["beijing", "guoan", "imperial guards", "bj guoan"],
-  "changchun yatai": ["changchun", "yatai", "northeast tigers", "cc yatai"],
-  "chengdu rongcheng": ["chengdu", "rongcheng", "blades"],
-  "dalian yingbo": ["dalian", "yingbo", "young tigers", "dl yingbo", "dl duxing", "dl zhixing"],
-  "henan fc": ["henan", "red devils", "hn jianye"],
-  "meizhou hakka": ["meizhou", "hakka", "mountain tigers", "mz hakka"],
-  "qingdao hainiu": ["qingdao", "hainiu", "sea bulls", "qd hainiu"],
-  "qingdao west coast": ["west coast", "qingdao wc", "coast warriors"],
-  "shandong taishan": ["shandong", "taishan", "mount tai", "sd luneng", "sd taishan"],
-  "shanghai port": ["shanghai", "port", "red eagles", "sh port"],
-  "shanghai shenhua": ["shenhua", "shanghai sh", "the flower", "sh shenhua"],
-  "shenzhen peng city": ["shenzhen", "sc jiuniu", "peng city", "phoenix", "sz peng city", "sz peng c. res."],
-  "tianjin jinmen tiger": ["tianjin", "jinmen", "tj jinmen tiger", "tj teda"],
-  "wuhan three towns": ["wuhan", "three towns", "dragons"],
-  "yunnan yukun": ["yunnan", "yukun", "jade dragons"],
-  "zhejiang fc": ["zhejiang", "greentown", "green giants", "zj fc", "zj e. greentown", "zj greentown"]
+  "gnk dinamo zagreb": ["dinamo zagreb", "dinamo", "modri", "the blues"],
+  "hnk gorica": ["gorica", "the bulls"],
+  "hnk hajduk split": ["hajduk split", "hajduk", "bili", "the whites"],
+  "hnk rijeka": ["rijeka", "bili", "the white-blues"],
+  "hnk sibenik": ["sibenik", "narančasti", "the oranges"],
+  "nk istra 1961": ["istra", "zeleno-žuti", "the green-yellows", "nk istra"],
+  "nk lokomotiva zagreb": ["lokomotiva", "loko", "the locomotives", "nk lokomotiva"],
+  "nk osijek": ["osijek", "bijelo-plavi", "the white-blues"],
+  "nk varazdin": ["varazdin", "krojači", "the tailors", "varteks"],
+  "slaven belupo koprivnica": ["slaven belupo", "slaven", "farmaci", "the pharmacists"]
 }
 
 def normalize_club_name(club_name):
