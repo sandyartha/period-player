@@ -16,26 +16,18 @@ except ImportError:
 
 # Daftar aturan untuk menangani singkatan klub
 CLUB_ALIASES = {
-  "athletic bilbao": ["athletic", "los leones", "the lions"],
-  "atlético de madrid": ["atlético", "los colchoneros", "the mattress makers"],
-  "ca osasuna": ["osasuna", "los rojillos", "the little reds"],
-  "cd leganés": ["leganés", "los pepineros", "the cucumber growers"],
-  "celta de vigo": ["celta", "los celestes", "the sky blues"],
-  "deportivo alavés": ["alavés", "los babazorros", "the foxes"],
-  "fc barcelona": ["barcelona", "barça", "los culés"],
-  "getafe cf": ["getafe", "los azulones", "the deep blues"],
-  "girona fc": ["girona", "els blanc-i-vermells", "the white and reds"],
-  "rayo vallecano": ["rayo", "los franjirrojos", "the red sashes"],
-  "rcd espanyol barcelona": ["espanyol", "los periquitos", "the parakeets"],
-  "rcd mallorca": ["mallorca", "los bermellones", "the vermilions"],
-  "real betis balompié": ["betis", "los verdiblancos", "the green-whites", "real betis"],
-  "real madrid": ["madrid", "los blancos", "the whites"],
-  "real sociedad": ["la real", "los txuri-urdin", "the white-blues"],
-  "real valladolid cf": ["valladolid", "los pucelanos", "the pucelans"],
-  "sevilla fc": ["sevilla", "los nervionenses", "the nervión men"],
-  "ud las palmas": ["las palmas", "los amarillos", "the yellows"],
-  "valencia cf": ["valencia", "los che", "the bats"],
-  "villarreal cf": ["villarreal", "el submarino amarillo", "the yellow submarine"]
+  "bsc young boys": ["young boys", "yb", "die gelb-schwarzen", "the yellow-blacks"],
+  "fc basel 1893": ["basel", "fcb", "rotblau", "the red-blues", "fc basel"],
+  "fc lausanne-sport": ["lausanne-sport", "les bleu et blanc", "the blue and whites"],
+  "fc lugano": ["lugano", "i bianconeri", "the white-blacks"],
+  "fc luzern": ["luzern", "fcl", "die leuchten", "the lights"],
+  "fc sion": ["sion", "les valaisans", "the valais men"],
+  "fc st. gallen 1879": ["st. gallen", "espe", "die grün-weissen", "the green-whites"],
+  "fc winterthur": ["winterthur", "die rot-weissen", "the red-whites"],
+  "fc zürich": ["zürich", "fcz", "die stadtzürcher", "the city zürchers"],
+  "grasshopper club zurich": ["grasshoppers", "gc", "die hoppers", "the hoppers"],
+  "servette fc": ["servette", "les grenats", "the maroons"],
+  "yverdon sport fc": ["yverdon", "les vert et blanc", "the green and whites"]
 }
 
 def normalize_club_name(club_name):
