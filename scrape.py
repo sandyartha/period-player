@@ -16,19 +16,27 @@ except ImportError:
 
 # Daftar aturan untuk menangani singkatan klub
 CLUB_ALIASES = {
-  "bsc young boys": ["young boys", "yb", "die gelb-schwarzen", "the yellow-blacks"],
-  "fc basel 1893": ["basel", "fcb", "rotblau", "the red-blues", "fc basel"],
-  "fc lausanne-sport": ["lausanne-sport", "les bleu et blanc", "the blue and whites"],
-  "fc lugano": ["lugano", "i bianconeri", "the white-blacks"],
-  "fc luzern": ["luzern", "fcl", "die leuchten", "the lights"],
-  "fc sion": ["sion", "les valaisans", "the valais men"],
-  "fc st. gallen 1879": ["st. gallen", "espe", "die grün-weissen", "the green-whites"],
-  "fc winterthur": ["winterthur", "die rot-weissen", "the red-whites"],
-  "fc zürich": ["zürich", "fcz", "die stadtzürcher", "the city zürchers"],
-  "grasshopper club zurich": ["grasshoppers", "gc", "die hoppers", "the hoppers"],
-  "servette fc": ["servette", "les grenats", "the maroons"],
-  "yverdon sport fc": ["yverdon", "les vert et blanc", "the green and whites"]
+  "adana demirspor": ["adana demir", "mavi şimşekler", "the blue lightning"],
+  "alanyaspor": ["alanya", "akdeniz’in turuncuları", "the oranges of the mediterranean"],
+  "antalyaspor": ["antalya", "akrepler", "the scorpions"],
+  "basaksehir fk": ["basaksehir", "boğalar", "the bulls", "istanbul bbsk"],
+  "besiktas jk": ["besiktas", "kara kartallar", "the black eagles"],
+  "bodrum fk": ["bodrum", "mavi beyazlar", "the blue-whites", "bb bodrumspor"],
+  "caykur rizespor": ["rizespor", "karadeniz’in atmacaları", "the hawks of the black sea", "c. rizespor"],
+  "eyüpspor": ["eyüp", "mor-sarılılar", "the purple-yellows"],
+  "fenerbahce": ["fener", "sarı kanaryalar", "the yellow canaries"],
+  "galatasaray": ["gala", "aslanlar", "the lions"],
+  "gaziantep fk": ["gaziantep", "şahinler", "the falcons"],
+  "göztepe": ["göz-göz", "sarı-kırmızılar", "the yellow-reds"],
+  "hatayspor": ["hatay", "güneyin yıldızı", "the star of the south"],
+  "kasimpasa": ["kasımpaşa", "apoliler", "the apollos"],
+  "kayserispor": ["kayseri", "anadolu yıldızı", "the anatolian star"],
+  "konyaspor": ["konya", "yeşil beyazlılar", "the green-whites"],
+  "samsunspor": ["samsun", "kırmızı şimşekler", "the red lightning"],
+  "sivasspor": ["sivas", "yiğidolar", "the braves"],
+  "trabzonspor": ["trabzon", "the black sea storm"]
 }
+
 
 def normalize_club_name(club_name):
     return club_name.lower().strip()
