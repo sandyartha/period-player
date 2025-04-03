@@ -16,24 +16,18 @@ except ImportError:
 
 # Daftar aturan untuk menangani singkatan klub
 CLUB_ALIASES = {
-  "al-ahli sfc": ["al-ahli", "al-raqi", "the classy"],
-  "al-ettifaq fc": ["al-ettifaq", "fursan al-daham", "the dark knights"],
-  "al-fateh sc": ["al-fateh", "al-namothajiya", "the exemplary"],
-  "al-fayha fc": ["al-fayha", "al-burtuqali", "the orange"],
-  "al-hilal sfc": ["al-hilal", "al-zaeem", "the leader"],
-  "al-ittihad club": ["al-ittihad", "al-nemour", "the tigers"],
-  "al-khaleej fc": ["al-khaleej", "al-danah", "the pearl"],
-  "al-kholood club": ["al-kholood", "fursan al-janoob", "knights of the south"],
-  "al-nassr fc": ["al-nassr", "al-alami", "the global"],
-  "al-okhdood club": ["al-okhdood", "fursan al-janoob", "knights of the south"],
-  "al-orobah fc": ["al-orobah", "al-sahraa", "the desert"],
-  "al-qadsiah fc": ["al-qadsiah", "faris al-sharq", "knight of the east"],
-  "al-raed sfc": ["al-raed", "raed al-tahadi", "the challenger"],
-  "al-riyadh sc": ["al-riyadh", "al-nadawi", "the capital club"],
-  "al-shabab fc": ["al-shabab", "al-leith", "the white lion"],
-  "al-taawoun fc": ["al-taawoun", "sokoor al-jabal", "the mountain falcons"],
-  "al-wehda fc": ["al-wehda", "fursan makkah", "knights of mecca"],
-  "damac fc": ["damac", "fursan al-janoob", "knights of the south"]
+  "aberdeen fc": ["aberdeen", "the dons", "the reds"],
+  "celtic fc": ["celtic", "the bhoys", "the hoops"],
+  "dundee fc": ["dundee", "the dees", "the dark blues"],
+  "dundee united fc": ["dundee united", "the tangerines", "the terrors"],
+  "heart of midlothian fc": ["hearts", "the jambos", "the maroons", "heart of midl."],
+  "hibernian fc": ["hibs", "the hibees", "the cabbage"],
+  "kilmarnock fc": ["kilmarnock", "killie", "the blue and whites"],
+  "motherwell fc": ["motherwell", "the well", "the steelmen"],
+  "rangers fc": ["rangers", "the gers", "the light blues"],
+  "ross county fc": ["ross county", "the staggies"],
+  "st. johnstone fc": ["st. johnstone", "the saints", "the blues"],
+  "st. mirren fc": ["st. mirren", "the buddies", "the saints"]
 }
 
 def normalize_club_name(club_name):
