@@ -16,25 +16,22 @@ except ImportError:
 
 # Daftar aturan untuk menangani singkatan klub
 CLUB_ALIASES = {
-  "adana demirspor": ["adana demir", "mavi şimşekler", "the blue lightning"],
-  "alanyaspor": ["alanya", "akdeniz’in turuncuları", "the oranges of the mediterranean"],
-  "antalyaspor": ["antalya", "akrepler", "the scorpions"],
-  "basaksehir fk": ["basaksehir", "boğalar", "the bulls", "istanbul bbsk"],
-  "besiktas jk": ["besiktas", "kara kartallar", "the black eagles"],
-  "bodrum fk": ["bodrum", "mavi beyazlar", "the blue-whites", "bb bodrumspor"],
-  "caykur rizespor": ["rizespor", "karadeniz’in atmacaları", "the hawks of the black sea", "c. rizespor"],
-  "eyüpspor": ["eyüp", "mor-sarılılar", "the purple-yellows"],
-  "fenerbahce": ["fener", "sarı kanaryalar", "the yellow canaries"],
-  "galatasaray": ["gala", "aslanlar", "the lions"],
-  "gaziantep fk": ["gaziantep", "şahinler", "the falcons"],
-  "göztepe": ["göz-göz", "sarı-kırmızılar", "the yellow-reds"],
-  "hatayspor": ["hatay", "güneyin yıldızı", "the star of the south"],
-  "kasimpasa": ["kasımpaşa", "apoliler", "the apollos"],
-  "kayserispor": ["kayseri", "anadolu yıldızı", "the anatolian star"],
-  "konyaspor": ["konya", "yeşil beyazlılar", "the green-whites"],
-  "samsunspor": ["samsun", "kırmızı şimşekler", "the red lightning"],
-  "sivasspor": ["sivas", "yiğidolar", "the braves"],
-  "trabzonspor": ["trabzon", "the black sea storm"]
+  "chornomorets odesa": ["chornomorets", "moryaky", "the sailors"],
+  "dynamo kyiv": ["dynamo", "bilo-syni", "the white-blues"],
+  "fc oleksandriya": ["oleksandriya", "zhovto-chorni", "the yellow-blacks"],
+  "ingulets petrove": ["ingulets", "kozaky", "the cossacks"],
+  "karpaty lviv": ["karpaty", "zeleno-bili", "the green-whites"],
+  "kolos kovalivka": ["kolos", "zernoviki", "the grain growers"],
+  "kryvbas kryvyi rig": ["kryvbas", "chervoni", "the reds"],
+  "livyi bereg kyiv": ["livyi bereg", "berezhani", "the coastmen"],
+  "lnz cherkasy": ["lnz", "chervono-chorni", "the red-blacks"],
+  "nk veres rivne": ["veres", "narodnyi klub", "the people's club"],
+  "obolon kyiv": ["obolon", "pivovary", "the brewers", "obolon-brovar"],
+  "polissya zhytomyr": ["polissya", "zhovto-zeleni", "the yellow-greens"],
+  "rukh lviv": ["rukh", "zhovto-chorni", "the yellow-blacks", "rukh vynnyky"],
+  "shakhtar donetsk": ["shakhtar", "hirnyaky", "the miners", "shakhtar d."],
+  "vorskla poltava": ["vorskla", "zeleno-bili", "the green-whites"],
+  "zorya lugansk": ["zorya", "chorno-bili", "the black-whites"]
 }
 
 
