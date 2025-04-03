@@ -16,18 +16,26 @@ except ImportError:
 
 # Daftar aturan untuk menangani singkatan klub
 CLUB_ALIASES = {
-  "aberdeen fc": ["aberdeen", "the dons", "the reds"],
-  "celtic fc": ["celtic", "the bhoys", "the hoops"],
-  "dundee fc": ["dundee", "the dees", "the dark blues"],
-  "dundee united fc": ["dundee united", "the tangerines", "the terrors"],
-  "heart of midlothian fc": ["hearts", "the jambos", "the maroons", "heart of midl."],
-  "hibernian fc": ["hibs", "the hibees", "the cabbage"],
-  "kilmarnock fc": ["kilmarnock", "killie", "the blue and whites"],
-  "motherwell fc": ["motherwell", "the well", "the steelmen"],
-  "rangers fc": ["rangers", "the gers", "the light blues"],
-  "ross county fc": ["ross county", "the staggies"],
-  "st. johnstone fc": ["st. johnstone", "the saints", "the blues"],
-  "st. mirren fc": ["st. mirren", "the buddies", "the saints"]
+  "athletic bilbao": ["athletic", "los leones", "the lions"],
+  "atlético de madrid": ["atlético", "los colchoneros", "the mattress makers"],
+  "ca osasuna": ["osasuna", "los rojillos", "the little reds"],
+  "cd leganés": ["leganés", "los pepineros", "the cucumber growers"],
+  "celta de vigo": ["celta", "los celestes", "the sky blues"],
+  "deportivo alavés": ["alavés", "los babazorros", "the foxes"],
+  "fc barcelona": ["barcelona", "barça", "los culés"],
+  "getafe cf": ["getafe", "los azulones", "the deep blues"],
+  "girona fc": ["girona", "els blanc-i-vermells", "the white and reds"],
+  "rayo vallecano": ["rayo", "los franjirrojos", "the red sashes"],
+  "rcd espanyol barcelona": ["espanyol", "los periquitos", "the parakeets"],
+  "rcd mallorca": ["mallorca", "los bermellones", "the vermilions"],
+  "real betis balompié": ["betis", "los verdiblancos", "the green-whites", "real betis"],
+  "real madrid": ["madrid", "los blancos", "the whites"],
+  "real sociedad": ["la real", "los txuri-urdin", "the white-blues"],
+  "real valladolid cf": ["valladolid", "los pucelanos", "the pucelans"],
+  "sevilla fc": ["sevilla", "los nervionenses", "the nervión men"],
+  "ud las palmas": ["las palmas", "los amarillos", "the yellows"],
+  "valencia cf": ["valencia", "los che", "the bats"],
+  "villarreal cf": ["villarreal", "el submarino amarillo", "the yellow submarine"]
 }
 
 def normalize_club_name(club_name):
